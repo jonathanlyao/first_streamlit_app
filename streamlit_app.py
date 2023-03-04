@@ -42,6 +42,7 @@ try:
          streamlit.dataframe(back_from_function)
  
 except URLError as e:
+    streamlit.error()    
         
 # new section to display fruityvice api response
 # streamlit.header("Fruityvice Fruit Advice!")
